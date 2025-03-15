@@ -2,27 +2,30 @@
 
 **Deadline:** 18.03.2025.
 
-
-## Kérdések
-* python + pytorch
-  * más könyvtár használható?
-  * Transformers, Langchain, huggingface-ről leszedni modelleket?
+## Questions
+* python + pytorch, can we use other libraries? Transformers, Langchain, models from huggingface?
+  * The more they see the better, but show the from scratch solution too.
 * RNN, LSTM?
-* Kell gpt API vagy valami más modell?
-* QA rész az amire gondolok?
-* Text classification csak NN vagy ML módszerek is?
-* simple chatbots?
+  * No.
+* GPT or other LLM with API?
+  * No, somebody else will do that.
+* What is the QA part (5) really about?
+  * We don't really know for sure.
+* Text classification only with NN or also traditional ML?
+  * The more they see the better.
+* Simple chatbots?
+  * We don't really know for sure.
 
 ## Syllabus
-* Word Embeddings (Word2Vec, GloVe)
-* Transformers Basics (Attention Mechanism)
-* Text Classification
-* Introduction to Pre-trained NLP Models (e.g., BERT, GPT)
-* Question Answering with Pre-trained Models
-* Introduction to Large Language Models (LLMs) (e.g., GPT-4)
-* Building Simple Chatbots Using NLP
-* Model Fine-Tuning: Methods and Limitations (LoRA, Adapters, etc.)
-* LLM Agents Basics
+1. Word Embeddings (Word2Vec, GloVe)
+2. Transformers Basics (Attention Mechanism)
+3. Text Classification
+4. Introduction to Pre-trained NLP Models (e.g., BERT, GPT)
+5. Question Answering with Pre-trained Models
+6. Introduction to Large Language Models (LLMs) (e.g., GPT-4)
+7. Building Simple Chatbots Using NLP
+8. Model Fine-Tuning: Methods and Limitations (LoRA, Adapters, etc.)
+9. LLM Agents Basics
 
 ## Detailed TODO list
 
@@ -49,8 +52,9 @@
       - [ ] Spam, review rating, sentiment analysis, NER
     - [ ] Evaluation: Accuracy, precision, recall, confusion matrix
   - [ ] Naïve Bayes
-  - [ ] KNN
   - [ ] Decision tree with features??
+  - [ ] Text embeddings
+  - [ ] KNN
   - [ ] Neural networks (logistic regression?)
     - [ ] Learning methods
 - [ ] Question Answering with Pre-trained Models
@@ -64,6 +68,7 @@
   - [ ] LLM models: GPT, LLama etc.
 - [ ] Building Simple Chatbots Using NLP
   - [ ] Rule-based vs. NN-based chatbots
+  - [ ] Previous context in conversation
 - [ ] Model Fine-Tuning: Methods and Limitations (LoRA, Adapters, etc.)
   - [ ] Why we want it?
   - [ ] How: full vs. PEFT

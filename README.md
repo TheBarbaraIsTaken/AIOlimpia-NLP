@@ -30,27 +30,31 @@
 ## Detailed TODO list
 
 - [ ] Word Embeddings
-  - [ ] Tokenization
-  - [ ] Words to numbers (so we can process them with NN)
-  - [ ] Words to vectors
-    - [ ] Intuition: king - man + woman = queen
-  - [ ]  How to get these vectors - short description of training algorithm and practical example for usage
-    - [ ]  Word2Vec, GloVe
-  - [ ]  Dense and sparse representations
-- [ ] Transformers Basics
+  - [x] Text preprocessing
+    - [x] Tokenization etc.
+  - [x] Embeddings
+    - [x] Words to numbers (so we can process them with NN)
+    - [x] Words to vectors
+      - [x] Intuition: king - man + woman = queen
+    - [x]  How to get these vectors - short description of training algorithm and practical example for usage
+    - [x]  Word2Vec, GloVe
+- [ ] Transformer Basics
   - [ ] Input, output
   - [ ] Encoder + decoder
-  - [ ] Attention Mechanism etc.
+  - [ ] Attention Mechanism etc. (Bahdanau Attention(?))
   - [ ] Good parallelization capacity
 - [ ] Introduction to Pre-trained NLP Models 
   - [ ] Encoder-only: BERT
   - [ ] Decoder-only: GPT
   - [ ] Embeddings
 - [ ] Text Classification
+  - [ ] Tf-idf?
   - [ ] Supervised-learning
     - [ ] Examples for labels and texts
       - [ ] Spam, review rating, sentiment analysis, NER
-    - [ ] Evaluation: Accuracy, precision, recall, confusion matrix
+        - [ ] Named Entity Recognition (NER): Identify proper names like "Neumann" (person) or "Budapest" (city)
+        - [ ] Part-of-Speech (POS) Tagging: Label words as nouns, verbs, adjectives, etc.
+    - [ ] Evaluation: Accuracy, precision, recall, F1, confusion matrix
   - [ ] Naïve Bayes
   - [ ] Decision tree with features??
   - [ ] Text embeddings
@@ -74,4 +78,18 @@
   - [ ] How: full vs. PEFT
 - [ ] LLM Agents Basics
   - [ ] Tool usage and retrieval-augmented generation (RAG)
+
+## File Structures
+
+```
+├── exercises
+├── img
+|     └── 01_embeddings
+├── study_materials
+|     └── 01_embeddings.ipynb
+├── LICENSE
+├── README
+└── Syllabus-2025-Final.pdf
+```
+TODO: külön mappa feladatoknak
 

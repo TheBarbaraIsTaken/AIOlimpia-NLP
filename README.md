@@ -29,7 +29,7 @@
 
 ## Detailed TODO list
 
-- [ ] Word Embeddings
+- [x] Word Embeddings
   - [x] Text preprocessing
     - [x] Tokenization etc.
   - [x] Embeddings

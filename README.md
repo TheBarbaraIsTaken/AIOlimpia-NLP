@@ -1,5 +1,13 @@
 # AIOlimpia-NLP
 
+## Starter
+
+Install the requirements:
+
+```bash
+pip install -r requirements.txt
+```
+
 **Deadline:** 18.03.2025.
 
 ## Questions
@@ -18,7 +26,7 @@
 
 ## Syllabus
 1. Word Embeddings (Word2Vec, GloVe)
-2. Transformers Basics (Attention Mechanism)
+2. Transformer Basics (Attention Mechanism)
 3. Text Classification
 4. Introduction to Pre-trained NLP Models (e.g., BERT, GPT)
 5. Question Answering with Pre-trained Models
@@ -42,11 +50,11 @@
   - [ ] Input, output
   - [ ] Encoder + decoder
   - [ ] Attention Mechanism etc. (Bahdanau Attention(?))
+  - [ ] Dynamic embeddings
   - [ ] Good parallelization capacity
 - [ ] Introduction to Pre-trained NLP Models 
   - [ ] Encoder-only: BERT
   - [ ] Decoder-only: GPT
-  - [ ] Embeddings
 - [ ] Text Classification
   - [ ] Tf-idf?
   - [ ] Supervised-learning

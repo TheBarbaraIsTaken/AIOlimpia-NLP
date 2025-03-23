@@ -47,12 +47,14 @@ pip install -r requirements.txt
     - [x]  How to get these vectors - short description of training algorithm and practical example for usage
     - [x]  Word2Vec, GloVe
 - [ ] Transformer Basics
-  - [ ] Input, output
-  - [ ] Encoder + decoder
-  - [ ] Attention Mechanism etc. (Bahdanau Attention(?))
-  - [ ] Dynamic embeddings
-  - [ ] Good parallelization capacity
+  - [x] Seq2seq
+  - [x] Input, output
+  - [x] Encoder + decoder
+  - [x] Attention Mechanism etc. 
+    - [ ] (Bahdanau Attention(?))
+  - [ ] Good parallelization capacity?
 - [ ] Introduction to Pre-trained NLP Models 
+  - [x] Language models
   - [ ] Encoder-only: BERT
   - [ ] Decoder-only: GPT
 - [ ] Text Classification
@@ -91,13 +93,15 @@ pip install -r requirements.txt
 
 ```
 ├── exercises
+      └── 01_embeddings.ipynb
 ├── img
 |     └── 01_embeddings
 ├── study_materials
-|     └── 01_embeddings.ipynb
+      ├── 01_embeddings.ipynb
+      ├── 02_transformer_basics.ipynb
+|     └── 03_pretrained_models.ipynb
 ├── LICENSE
 ├── README
 └── Syllabus-2025-Final.pdf
 ```
-TODO: külön mappa feladatoknak
 
